@@ -7,6 +7,13 @@ as if the fill were drawn two or three times.
 
 Only the iOS Simulator is affected: a physical iPhone renders every case correctly.
 
+| iOS 26.5 simulator: 107/200 correct | iPhone 16e, iOS 26.6.2: 200/200 correct |
+|---|---|
+| <img src="screenshots/simulator-ios26.5.png" width="300"> | <img src="screenshots/iphone16e-ios26.6.2.png" width="300"> |
+
+The red squares should all look like the pale ones: on the simulator, the darker ones are the fill
+drawn two or three times.
+
 ## Run
 
 ```sh
