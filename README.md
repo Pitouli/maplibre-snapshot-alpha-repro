@@ -7,6 +7,10 @@ as if the fill were drawn two or three times.
 
 Only the iOS Simulator is affected: a physical iPhone renders every case correctly.
 
+Found in a real React Native app (`@maplibre/maplibre-react-native` 11.5): its map thumbnails, rendered
+with the snapshotter, showed translucent overlays more opaque than intended in the simulator. This
+repository is a standalone native reproduction, without the app or React Native.
+
 | iOS 26.5 simulator: 107/200 correct | iPhone 16e, iOS 26.6.2: 200/200 correct |
 |---|---|
 | <img src="screenshots/simulator-ios26.5.png" width="300"> | <img src="screenshots/iphone16e-ios26.6.2.png" width="300"> |
