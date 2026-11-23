@@ -49,3 +49,8 @@ Expected: alpha 128 everywhere (one layer of 50 %).
 - The same style and bounds through MapLibre Android 13.6.1's snapshotter give alpha 128 everywhere.
 - ReproApp's 200 cases: 107 correct and 93 wrong on the iOS 26.5 simulator, the same cases on every
   run; 200 correct on a physical iPhone 16e (iOS 26.6.2), over several runs.
+
+---
+
+The investigation, this repository and its README were produced with an AI coding assistant (Claude Code),
+checked and run by a human on the simulator and the device.
